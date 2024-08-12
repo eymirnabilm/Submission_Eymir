@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Eymir_Submission</string>
+    <string name="photo_icon">Photo Icon</string>
+    <string name="name_input">Name</string>
+    <string name="polindrome_input">Polindrome</string>
+    <string name="check_strBtn">CHECK</string>
+    <string name="next_strBtn">NEXT</string>
+    <string name="selected_user_name_txt">Selected User Name</string>
+    <string name="choose_user_Btn">Choose a User</string>
+    <string name="welcome_str">Welcome</string>
+    <string name="firstname_str">firstname_str</string>
+    <string name="lastname_str">lastname_str</string>
+    <string name="useriv">userIv</string>
+    <string name="email_str">email_str</string>
+</resources>

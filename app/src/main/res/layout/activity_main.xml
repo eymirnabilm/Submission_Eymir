@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_1"
+    android:padding="16dp"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/ic_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_photo"
+        android:layout_marginBottom="54dp"
+        android:contentDescription="@string/photo_icon"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="14dp">
+
+        <EditText
+            android:id="@+id/nameET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name_input"
+            android:textColor="@color/charcoal_grey"
+            android:background="@android:color/transparent"
+            android:padding="12dp"
+            android:paddingStart="16dp"
+            tools:ignore="Autofill,RtlSymmetry,TextFields" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="14dp">
+
+        <EditText
+            android:id="@+id/sentenceET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/polindrome_input"
+            android:textColor="@color/charcoal_grey"
+            android:background="@android:color/transparent"
+            android:padding="12dp"
+            android:paddingStart="16dp"
+            tools:ignore="Autofill,RtlSymmetry,TextFields" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/checkBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white"
+        android:text="@string/check_strBtn"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/nextBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white"
+        android:text="@string/next_strBtn"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"/>
+
+</LinearLayout>
